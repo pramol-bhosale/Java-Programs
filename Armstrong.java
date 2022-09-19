@@ -1,9 +1,10 @@
 import java.util.Scanner;
 import java.lang.Math;
-public class ArmStrong{
+public class Armstrong{
 public static void main(String args[]){
 int n;
 Scanner sc=new Scanner(System.in);
+System.out.println("Enter the number: ");
 n=sc.nextInt();
 if(n<0){
 System.out.println("Given Number is not Armstrong Number");
